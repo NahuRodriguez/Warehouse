@@ -1,0 +1,17 @@
+Producto:
+id,codigo,descripcion,peso,idUnidadMedida
+
+ProductoEnUbicacion:
+id,idProducto,idUbicacion,cantidad
+
+Ubicacion:
+id,idEstanteria,posicion
+
+Estanteria:
+id,idZona
+
+Zona:
+id,idNave,idTipoZona
+
+Nave:
+id,nombre
